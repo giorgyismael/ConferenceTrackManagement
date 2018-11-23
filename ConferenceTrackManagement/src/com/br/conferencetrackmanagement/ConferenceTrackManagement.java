@@ -1,15 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.br.conferencetrackmanagement;
 
-import java.util.Calendar;
-import java.util.Date;
 
+import java.util.Date;
 /**
- *
+ * Objeto criado para criar uma TrackListFinal contendo uma lista organizada de
+ * Objetos Tracks conforme as regras descritas no teste
  * @author giorgy
  */
 public class ConferenceTrackManagement {

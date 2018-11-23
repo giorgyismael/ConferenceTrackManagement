@@ -1,14 +1,12 @@
-/*
- * Objetivo: Classe criada para gerenciar o tempo das trilhas
- *
- */
+
 package com.br.conferencetrackmanagement;
 
 import java.util.Calendar;
 import java.util.Date;
 
 /**
- *
+ * Objetivo: Classe criada para gerenciar o tempo da Conferencia
+ * Neste Objeto estão inseridas todas as regras de tempo solicitadas no teste
  * @author giorgy
  */
 public class TimeTrackingManager {
@@ -91,8 +89,6 @@ public class TimeTrackingManager {
         return checkTrackTimeOfNext(check);
     }
 
-   
-
     //Soma um tempo em minutos no Controle do tempo
     public Date sumMinManagerTime(int min) {
         this.timeTrackingManager.add(Calendar.MINUTE, min);
@@ -147,7 +143,11 @@ public class TimeTrackingManager {
         return time;
     }
 
-    //Retorna uma string informando qual momento do tempo(Morning Tracks, Lunch, Afternoon Tracks, Networking Event)
+    //Retorna uma string informando qual momento do tempo conforme as regras do Teste
+    //9:00 <=tempo<=11:59 = Morning Tracks, 
+    //12:00 <=tempo<=12:59 = Lunch, 
+    //13:00 <=tempo<=16:59 = Afternoon Tracks, 
+    //tempo > 16:59 = Networking Event
     public String checkHourOfManagerTime() {
         int hour = this.timeTrackingManager.get(Calendar.HOUR_OF_DAY);
         int minute = this.timeTrackingManager.get(Calendar.MINUTE);

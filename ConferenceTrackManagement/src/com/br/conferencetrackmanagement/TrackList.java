@@ -1,6 +1,4 @@
-/**
- * Objetivo: Classe contem uma listagem de objetos track 
- */
+
 package com.br.conferencetrackmanagement;
 
 import java.util.Collections;
@@ -8,7 +6,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- *
+ * Objetivo: Classe contem uma listagem de objetos track 
+ * Realiza o Controle da Lista
  * @author giorgy
  */
 public class TrackList {

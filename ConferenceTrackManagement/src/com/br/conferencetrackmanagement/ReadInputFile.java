@@ -8,6 +8,7 @@ import java.io.*;
  * Cada linha do arquivo é analisado
  * Adiconace um objeto Track a trackLists 
  * Retornar uma lista com todas as tracks do arquivo de input.txt.
+ * @author giorgy
  */
 public class ReadInputFile {
 

@@ -1,8 +1,10 @@
 package com.br.conferencetrackmanagement;
 
 /**
- * Esta classe representa cada atividade "Track" . tem dois atributos, nome e
- tempo. Retorna um objeto do tipo Track
+ * Classe criada para suprir as necessidades de uma Track. 
+ * Possui dois atributos, nome e tempo. 
+ * Retorna um objeto do tipo Track
+ * @author giorgy
  */
 public class Track implements Comparable<Track>{
 

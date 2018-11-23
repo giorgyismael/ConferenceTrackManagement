@@ -1,12 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.br.conferencetrackmanagement;
 
-/**
- *
+package com.br.conferencetrackmanagement;
+/*
+ * Teste desenvolvido para Empresa NeoGrid
+ * Data: 23/11/2018
  * @author giorgy
  */
 public class Main {

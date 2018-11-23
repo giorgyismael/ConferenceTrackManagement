@@ -1,15 +1,12 @@
-/**
- *Objeto criado para controlar a lista final contendo todos as trilhas
- */
+
 package com.br.conferencetrackmanagement;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
-
 /**
- *
+ * Objeto criado para conter os itens necessários para a listagem final des trilhas
  * @author giorgy
  */
 public class TrackListForConference {
